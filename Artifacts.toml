@@ -1,0 +1,214 @@
+[[Cbc]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "5317948193d0bea48fd6977ab3b4059a4fbe5558"
+libc = "musl"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "f51242ae40cb02e11fb5f9853c8d7f4ad02cbe811b1c1250b0efeffc1f7478c5"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.5+0/Cbc.v2.10.5.aarch64-linux-musl-cxx03.tar.gz"
+[[Cbc]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "3fd22bd02c85733badddcf3af1950ef74036b613"
+libc = "musl"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "fb5e56669cf817e28f18c98b0bd49086ede3f6f9adade9537b31d8b93e19089f"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.5+0/Cbc.v2.10.5.aarch64-linux-musl-cxx11.tar.gz"
+[[Cbc]]
+arch = "armv7l"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "46d277aad90e8ced43867b6b70a3b0db4c5f0b72"
+libc = "musl"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "faf462a574123e963db866f11ad4087dd644cb9680157e50b6787648db9454a5"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.5+0/Cbc.v2.10.5.armv7l-linux-musleabihf-cxx03.tar.gz"
+[[Cbc]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "1871b1c7e44362b66fb9f410e5aa16008ae3e543"
+os = "windows"
+
+    [[Cbc.download]]
+    sha256 = "eea316b82bc9d4a5331960a756f57170e0ebd4b389c9f9ec69eac66a1c9d69ef"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.5+0/Cbc.v2.10.5.x86_64-w64-mingw32-cxx11.tar.gz"
+[[Cbc]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e6ca24f0523f95e90bd56834c150454b57b7b862"
+libc = "musl"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "8003bd0769eb2aad2f2c188ebb492311c0ecdb5dacc06af0c2dc7f989063d195"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.5+0/Cbc.v2.10.5.i686-linux-musl-cxx11.tar.gz"
+[[Cbc]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "d1756949f4cfa42a17fc59c73ba9df9495ba3cb4"
+libc = "musl"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "2c8e29fbb2268713a8f847a618138bda7f9811ba162d16896b8e328ce63b583b"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.5+0/Cbc.v2.10.5.x86_64-linux-musl-cxx11.tar.gz"
+[[Cbc]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "e4b265274100f9425ca64718185a23cb34b36f4f"
+libc = "glibc"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "a9b33fd821bfde87070fcf293d879694cb0b19edea1375ee438a52f1c8d746c8"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.5+0/Cbc.v2.10.5.x86_64-linux-gnu-cxx03.tar.gz"
+[[Cbc]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "1c951472fe8861aa098de0a2bee03b2178b24383"
+libc = "glibc"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "c13c3639d76e8b02371774cce9df4c60a464cf085026a2d10953224c061996c6"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.5+0/Cbc.v2.10.5.i686-linux-gnu-cxx03.tar.gz"
+[[Cbc]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "88899b2937994046dd51b993acccdd5ab6aa5079"
+os = "macos"
+
+    [[Cbc.download]]
+    sha256 = "09c3e52a959af60185bf86f6899a85aa877325966c9fe6906805aa022d437d91"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.5+0/Cbc.v2.10.5.x86_64-apple-darwin14-cxx11.tar.gz"
+[[Cbc]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "0e7c29684b07d9f8dc57d4a2864030cc8547a51a"
+libc = "glibc"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "a3b74426867de984bcf0aa9d904679a5f3f553c09a84416841cda5e33aa7a31b"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.5+0/Cbc.v2.10.5.i686-linux-gnu-cxx11.tar.gz"
+[[Cbc]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "b4ce51e5a87818f11fcd7f8059aae5a87a8ac399"
+os = "windows"
+
+    [[Cbc.download]]
+    sha256 = "19b229fd2605aa8caf090e1445972de31b00b7e32705a10bca077a6856629f66"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.5+0/Cbc.v2.10.5.x86_64-w64-mingw32-cxx03.tar.gz"
+[[Cbc]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "539b99d637a911c55cf1d0ceeb3c5508e41f40c5"
+libc = "glibc"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "05970d51a53eceffebf0faa6fd3950c80d4716ba7011bad6a63d32834e831a17"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.5+0/Cbc.v2.10.5.x86_64-linux-gnu-cxx11.tar.gz"
+[[Cbc]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "4c8d34fd6342de77c0a682b2b9fe1c6d4cc493a8"
+libc = "glibc"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "74b1adc312a7a3f183799294ec1ad77955b3950361c4969ff910ba541272cb18"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.5+0/Cbc.v2.10.5.aarch64-linux-gnu-cxx11.tar.gz"
+[[Cbc]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "22647f5e3f631a76ec0e09628eda6ebfc6978f83"
+libc = "musl"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "fa6c9fc2ffc6863292cbb9acaebf3c0d961d780f6c95071fa8e54784fcd7c817"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.5+0/Cbc.v2.10.5.x86_64-linux-musl-cxx03.tar.gz"
+[[Cbc]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "60b6151e3f474a5b684447a5391ad64889d061a9"
+os = "macos"
+
+    [[Cbc.download]]
+    sha256 = "958f5a81d647239813647a1eeb5568d1f1912aa8f603d82af80dc51fb297172e"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.5+0/Cbc.v2.10.5.x86_64-apple-darwin14-cxx03.tar.gz"
+[[Cbc]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "924cd5b6d6b187d2ca17bed6de363471aa765b08"
+os = "windows"
+
+    [[Cbc.download]]
+    sha256 = "7a8b6788fc289d1874e86a4149cafde4ccc27fecc50df0abaf77b68795663888"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.5+0/Cbc.v2.10.5.i686-w64-mingw32-cxx03.tar.gz"
+[[Cbc]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c70cddbb501c00423a54b910abe9667d15bec6ab"
+os = "windows"
+
+    [[Cbc.download]]
+    sha256 = "a3312e88f7f4c75dd3cb45e2ee6436809a9009ec513729d877bddaa2421a4f00"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.5+0/Cbc.v2.10.5.i686-w64-mingw32-cxx11.tar.gz"
+[[Cbc]]
+arch = "armv7l"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "8b7a67d71cac7f559e04fb0d6b46e5061aa1f99f"
+libc = "musl"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "c00b33df51fa8d85a59d1eb48254062d57d6688cd9415f5bec8ed45ed03eb7fe"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.5+0/Cbc.v2.10.5.armv7l-linux-musleabihf-cxx11.tar.gz"
+[[Cbc]]
+arch = "armv7l"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "931791e3d49a767cb6ecea60abc297b091f6d639"
+libc = "glibc"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "2d27855fd5cc67039f09062a410b772b53fc99bba30507ba3d503841942b735f"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.5+0/Cbc.v2.10.5.armv7l-linux-gnueabihf-cxx03.tar.gz"
+[[Cbc]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "e4a22c8d828ff630405c988f7eab7b81b155006c"
+libc = "glibc"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "c27f7b0b123e3346b4e70ff16abc80d6510114b48e7fa1d513a9f162ebb39bdb"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.5+0/Cbc.v2.10.5.aarch64-linux-gnu-cxx03.tar.gz"
+[[Cbc]]
+arch = "armv7l"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "1ea3e9fbadbb9abe544200b112d148d3c856df7a"
+libc = "glibc"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "f8515a692f3f2cfbe205e58f84e906e5a692bd4a321df70d5dd9180c79d90f7a"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.5+0/Cbc.v2.10.5.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[Cbc]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "5959e483776b0a6b223a4d9d64f7d8ad0dfa134d"
+libc = "musl"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "b9eae72f72dceb17ce246af8685b8e436f03f6038d71b20e7d2382c6f321de7b"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.5+0/Cbc.v2.10.5.i686-linux-musl-cxx03.tar.gz"
