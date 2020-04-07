@@ -5,8 +5,6 @@ using Clp_jll
 using Cgl_jll
 using Osi_jll
 using CoinUtils_jll
-using METIS_jll
-using ASL_jll
 using OpenBLAS32_jll
 using CompilerSupportLibraries_jll
 ## Global variables
@@ -15,7 +13,7 @@ LIBPATH = ""
 LIBPATH_env = "DYLD_FALLBACK_LIBRARY_PATH"
 
 # Relative path to `libcbcsolver`
-const libcbcsolver_splitpath = ["lib", "libCbcSolver.3.10.5.dylib"]
+const libcbcsolver_splitpath = ["lib", "libCbcSolver.3.10.3.dylib"]
 
 # This will be filled out by __init__() for all products, as it must be done at runtime
 libcbcsolver_path = ""
@@ -29,7 +27,7 @@ const libcbcsolver = "@rpath/libCbcSolver.3.dylib"
 
 
 # Relative path to `libCbc`
-const libCbc_splitpath = ["lib", "libCbc.3.10.5.dylib"]
+const libCbc_splitpath = ["lib", "libCbc.3.10.3.dylib"]
 
 # This will be filled out by __init__() for all products, as it must be done at runtime
 libCbc_path = ""
@@ -54,8 +52,8 @@ function __init__()
     append!(LIBPATH_list, [joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)])
     # From the list of our dependencies, generate a tuple of all the PATH and LIBPATH lists,
     # then append them to our own.
-    foreach(p -> append!(PATH_list, p), (Clp_jll.PATH_list, Cgl_jll.PATH_list, Osi_jll.PATH_list, CoinUtils_jll.PATH_list, METIS_jll.PATH_list, ASL_jll.PATH_list, OpenBLAS32_jll.PATH_list, CompilerSupportLibraries_jll.PATH_list,))
-    foreach(p -> append!(LIBPATH_list, p), (Clp_jll.LIBPATH_list, Cgl_jll.LIBPATH_list, Osi_jll.LIBPATH_list, CoinUtils_jll.LIBPATH_list, METIS_jll.LIBPATH_list, ASL_jll.LIBPATH_list, OpenBLAS32_jll.LIBPATH_list, CompilerSupportLibraries_jll.LIBPATH_list,))
+    foreach(p -> append!(PATH_list, p), (Clp_jll.PATH_list, Cgl_jll.PATH_list, Osi_jll.PATH_list, CoinUtils_jll.PATH_list, OpenBLAS32_jll.PATH_list, CompilerSupportLibraries_jll.PATH_list,))
+    foreach(p -> append!(LIBPATH_list, p), (Clp_jll.LIBPATH_list, Cgl_jll.LIBPATH_list, Osi_jll.LIBPATH_list, CoinUtils_jll.LIBPATH_list, OpenBLAS32_jll.LIBPATH_list, CompilerSupportLibraries_jll.LIBPATH_list,))
 
     global libcbcsolver_path = normpath(joinpath(artifact_dir, libcbcsolver_splitpath...))
 

@@ -1,6 +1,6 @@
 name = "Cbc_jll"
 uuid = "38041ee0-ae04-5750-a4d2-bb4d0d83d27d"
-version = "2.10.5+1"
+version = "2.10.3+0"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
@@ -9,15 +9,12 @@ CompilerSupportLibraries_jll = "e66e0078-7015-5450-92f7-15fbd957f2ae"
 Cgl_jll = "3830e938-1dd0-5f3e-8b8e-b3ee43226782"
 Clp_jll = "06985876-5285-5a41-9fcb-8948a742cc53"
 Osi_jll = "7da25872-d9ce-5375-a4d3-7a845f58efdd"
-METIS_jll = "d00139f3-1899-568f-a2f0-47f597d42d70"
-OpenBLAS32_jll = "656ef2d0-ae68-5445-9ca0-591084a874a2"
-ASL_jll = "ae81ac8f-d209-56e5-92de-9978fef736f9"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+OpenBLAS32_jll = "656ef2d0-ae68-5445-9ca0-591084a874a2"
 
 [compat]
 julia = "1.0"
-CoinUtils_jll = "=2.11.4"
-Cgl_jll = "=0.60.3"
-Clp_jll = "=1.17.5"
-Osi_jll = "=0.108.6"
-METIS_jll = "=4.0.3"
+CoinUtils_jll = "=2.11.3"
+Cgl_jll = "=0.60.2"
+Clp_jll = "=1.17.3"
+Osi_jll = "=0.108.5"
