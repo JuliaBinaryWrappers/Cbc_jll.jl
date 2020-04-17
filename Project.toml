@@ -1,6 +1,6 @@
 name = "Cbc_jll"
 uuid = "38041ee0-ae04-5750-a4d2-bb4d0d83d27d"
-version = "2.10.3+1"
+version = "2.10.3+2"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
@@ -16,5 +16,5 @@ OpenBLAS32_jll = "656ef2d0-ae68-5445-9ca0-591084a874a2"
 julia = "1.0"
 CoinUtils_jll = "=2.11.3"
 Cgl_jll = "=0.60.2"
-Clp_jll = "=1.17.3"
+Clp_jll = "=1.17.6"
 Osi_jll = "=0.108.5"
