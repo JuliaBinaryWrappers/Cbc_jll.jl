@@ -1,708 +1,774 @@
 [[Cbc]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "235c8a07b2b6cdde2da5eb1ef93281728a8a1011"
-libgfortran_version = "4.0.0"
-os = "windows"
-
-    [[Cbc.download]]
-    sha256 = "dfd74135a506c935d15e3fa3d385cb67909116cb2bae7d0c3c8759cd82d7e253"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.i686-w64-mingw32-libgfortran4-cxx03.tar.gz"
-[[Cbc]]
-arch = "armv7l"
+arch = "powerpc64le"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "974b3d5a3751605dcf8f34f970731d7517408d1c"
+git-tree-sha1 = "8af87cc8306543aa8f8ebf5d15a0676287c68c74"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[Cbc.download]]
-    sha256 = "d6673ccc34c017d1854b248a3508ef6bc01c096c1c5fcb9f0923e814ef66841f"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.armv7l-linux-gnueabihf-libgfortran5-cxx11.tar.gz"
-[[Cbc]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "d56f4973b5b7478a5653dbc12da2d3e55c259c3f"
-libgfortran_version = "5.0.0"
-os = "windows"
-
-    [[Cbc.download]]
-    sha256 = "7dc140e2c4e2c93b486ed53e819f967f10a345d91483b44df05d1fd4e817ab58"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.x86_64-w64-mingw32-libgfortran5-cxx11.tar.gz"
+    sha256 = "66e5f568ac19444c87e89548bac716042a350bf4f8f6001712f2004d92253500"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.powerpc64le-linux-gnu-libgfortran5-cxx11.tar.gz"
 [[Cbc]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "a3d9b5021378b548ad6ab932e8bfd1e3b3ac1572"
+git-tree-sha1 = "742d693095fce053958967b6736b529a54098eea"
 libc = "glibc"
-libgfortran_version = "5.0.0"
+libgfortran_version = "3.0.0"
 os = "linux"
 
     [[Cbc.download]]
-    sha256 = "f451bf8ccc77b34a8f494da64811af0f4ae00fd10e79d215e17c0037b14c5c49"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.aarch64-linux-gnu-libgfortran5-cxx11.tar.gz"
-[[Cbc]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "961d263d5d7e1c1fa8b07e42eb7118da7af345a4"
-libc = "musl"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "7a1197aed7983fd35728019a0848cc88ac2853a55ee66d63662fd114a6f92707"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.i686-linux-musl-libgfortran4-cxx03.tar.gz"
-[[Cbc]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "bb794a5198bfe632f207b5765433b2d46a659e1c"
-libgfortran_version = "5.0.0"
-os = "windows"
-
-    [[Cbc.download]]
-    sha256 = "ae3acb2281aadfab1a98e576431be461c2bfc9f7f6f30429602b124d3236c566"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.i686-w64-mingw32-libgfortran5-cxx03.tar.gz"
+    sha256 = "578f5266919601bb821c2ef2bf7ccd5f7cd057238706dba103a52f04d9b47b0a"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.aarch64-linux-gnu-libgfortran3-cxx11.tar.gz"
 [[Cbc]]
 arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "1f3c063cf4ba42f693945420dd4d3143e3575c1f"
-libc = "musl"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "fa343ee27ac7a583aed4c9b63ea7bfaa564d4150ec5ded153d2d191338af7512"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.aarch64-linux-musl-libgfortran4-cxx03.tar.gz"
-[[Cbc]]
-arch = "armv7l"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "ee9a2a625903dc580ec5bd8c8ebd5bfbe25e4109"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "3b7715877e07b9ed3d481989d37851f35fdea28372600f7c38a9b29b1f59c6a5"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.armv7l-linux-gnueabihf-libgfortran3-cxx11.tar.gz"
-[[Cbc]]
-arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "b509bce78d4633bc45099d46c853faa8725634bf"
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "afd4911e2b2b7271c05ac21405e0b422a00edcab625b058e85b218bbcdd48c35"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.aarch64-linux-gnu-libgfortran4-cxx03.tar.gz"
-[[Cbc]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "e31d786c4d175d37fd403e1d51a73ad70bcbfad7"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "98a9993f322960636d49acc8e2efe725ca3d2bd9c859a63ef8ee1fe41bdfd95f"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.x86_64-linux-gnu-libgfortran3-cxx11.tar.gz"
-[[Cbc]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "4801b6988d9c40a7924abf661697868e3fa9a69d"
-libgfortran_version = "5.0.0"
-os = "windows"
-
-    [[Cbc.download]]
-    sha256 = "a77665065620b11c36f621e4f5a2aa6211843ccceb010ae4fdb33b7a084604c8"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.x86_64-w64-mingw32-libgfortran5-cxx03.tar.gz"
-[[Cbc]]
-arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "2cab163a9e0d2f101c1b8f3413d8455d567d7171"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "9993d0480527baa39c83bb0cc81e891f5ef999217c01a0a7618253eb0c5f4430"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.aarch64-linux-gnu-libgfortran3-cxx03.tar.gz"
-[[Cbc]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "d466e3500c4cf2b9618c04ffe1d7db20d9a693a5"
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "e93a7b1cfe402d203ecfe778197e0eca5c7b65c4e9cfda79fd0f7b9e809bcdc3"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.x86_64-linux-gnu-libgfortran4-cxx11.tar.gz"
-[[Cbc]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "e8919fafd4a454deb6158c8626e69a7fade4236e"
-libgfortran_version = "3.0.0"
-os = "macos"
-
-    [[Cbc.download]]
-    sha256 = "130640305462f015f53fbd19df145036978325e51afe33fc4aacb24018b3e67b"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.x86_64-apple-darwin14-libgfortran3-cxx11.tar.gz"
-[[Cbc]]
-arch = "armv7l"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "26716f3dae98577bcc8be9afb1c94057805434af"
-libc = "musl"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "c956b6311fe88cb210ee6accb017765cae2bdbadd541f153e0d18c045a4391bb"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.armv7l-linux-musleabihf-libgfortran4-cxx03.tar.gz"
-[[Cbc]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "86bfebad47712a886ac1413d472c2cf5ed83a990"
-libc = "musl"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "210fd8b6e217cb40c245b059a2034817407441c7cdf6d799bec57510f74ade5e"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.x86_64-linux-musl-libgfortran4-cxx03.tar.gz"
-[[Cbc]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "67ae305b28a9bf31cbc50092ca5316951355ebee"
-libc = "musl"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "7a5d86231e0632db5bb9a2b5e640b481a8724993e6d1188bee6c17f1aa945251"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.i686-linux-musl-libgfortran5-cxx11.tar.gz"
-[[Cbc]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "ecbedc05c99c76c6b5685ff36ce4487446a4a052"
+git-tree-sha1 = "8e66ee0e4f355cf590e1487a3d9a03094b6c2d4c"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[Cbc.download]]
-    sha256 = "b0344c003b4c125c17adcba9d6422ba98435cc59f8899c73229aca4828451510"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.i686-linux-gnu-libgfortran5-cxx11.tar.gz"
+    sha256 = "ef96996a86018c85ed7e0814ff7c6b569c7f6e787415446e77c49f08d1edba06"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.aarch64-linux-gnu-libgfortran5-cxx11.tar.gz"
 [[Cbc]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "bd098a8f5105c5bcc4fb58e8566dfdb312d55b4d"
-libgfortran_version = "4.0.0"
-os = "windows"
-
-    [[Cbc.download]]
-    sha256 = "a7948eb3b1b0ac8565d80eeec9f1be4b22d5efdf04f6a9b4568a098969db3dce"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.x86_64-w64-mingw32-libgfortran4-cxx03.tar.gz"
-[[Cbc]]
-arch = "armv7l"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "57111486c8a48db73d541d472bc837ea4607eca8"
-libc = "glibc"
-libgfortran_version = "4.0.0"
+git-tree-sha1 = "5d8ee75717cd64ea7a2f036b32886cb074ccec48"
+libc = "musl"
+libgfortran_version = "5.0.0"
 os = "linux"
 
     [[Cbc.download]]
-    sha256 = "15ed9a74917673e3613c0230759227ba00555c083d13c9475b932b8ff0d41bda"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.armv7l-linux-gnueabihf-libgfortran4-cxx11.tar.gz"
+    sha256 = "e8cdb10d8dbddda60369a680572dfdd9253617a893ab79bbdcac2c446f797c61"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.x86_64-linux-musl-libgfortran5-cxx03.tar.gz"
 [[Cbc]]
 arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "a9814daa6d55899041b0649653b6b0a35d30f254"
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "5941f82ddfff5434b4a8073a5aa22f516fa7ee7bf6ba12086dd04ef7c0002b78"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.x86_64-linux-gnu-libgfortran4-cxx03.tar.gz"
-[[Cbc]]
-arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "ed939f341382cdb1696d3ca4c73a21e54bf65cc3"
-libgfortran_version = "3.0.0"
-os = "windows"
-
-    [[Cbc.download]]
-    sha256 = "c1df3b74ec7581099c91c72650b64710a0eb1b80c08bbce399a2422a9a437663"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.i686-w64-mingw32-libgfortran3-cxx11.tar.gz"
-[[Cbc]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "40f32e52947cea09c12b77d4e23cfab980cba24f"
+git-tree-sha1 = "64aec227bde83605dd1932ef1e8a20e818da7fd9"
 libgfortran_version = "5.0.0"
 os = "macos"
 
     [[Cbc.download]]
-    sha256 = "4077078028e54d5676166f3df0f6a8b84932a485616ac70471c0ed8c1add0fe9"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.x86_64-apple-darwin14-libgfortran5-cxx03.tar.gz"
+    sha256 = "2a6e48e9bb8e6ff20653d8583f6ba5b745a14d9487407e55702673e3fcd21e07"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.x86_64-apple-darwin14-libgfortran5-cxx11.tar.gz"
 [[Cbc]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "9e63d520b025794086ec418c7c9a52a19207d1bd"
-libgfortran_version = "4.0.0"
-os = "windows"
-
-    [[Cbc.download]]
-    sha256 = "af9e1fbe8551c3ce64bab87b4a7eb24fd34734b16e0162526210217f6ed6ca0d"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.i686-w64-mingw32-libgfortran4-cxx11.tar.gz"
-[[Cbc]]
-arch = "armv7l"
+arch = "powerpc64le"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "c5e8aca5df59401a0b3bdaddf9762a60854e221e"
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "2bdfd75e483df6fcfa1431402d54e8a6927a94b3ed34c5145ba32702fed234ad"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.armv7l-linux-gnueabihf-libgfortran4-cxx03.tar.gz"
-[[Cbc]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "483bbfdeccec2d983e6eb392eb49bcfc2708deef"
+git-tree-sha1 = "3dec4f50799a64846ebb58e6bfbb851b923d7400"
 libc = "glibc"
 libgfortran_version = "3.0.0"
 os = "linux"
 
     [[Cbc.download]]
-    sha256 = "25ebbf011b74f8212408abc1ef81364741fb8b06ad5265d83c956b5f5d951f6b"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.i686-linux-gnu-libgfortran3-cxx11.tar.gz"
+    sha256 = "c8083ec43d9cb123d2aef9503f61b0ee9df580b57c1f982782120429e0c7caeb"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.powerpc64le-linux-gnu-libgfortran3-cxx03.tar.gz"
 [[Cbc]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "7b683b76a9254e14017008cddb915cb64136ef34"
-libgfortran_version = "5.0.0"
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "668ff8f8b6f8732673d8927b3d24357ef15837bd"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "07834fe93a5ff07c4d1e91ebdf1bf6f622802f5be352f3dc24b135b38e7cd7c7"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.x86_64-linux-gnu-libgfortran4-cxx03.tar.gz"
+[[Cbc]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "0ff822c7956b3b816c56f7b63dc6c75496eabb5a"
+libgfortran_version = "4.0.0"
 os = "windows"
 
     [[Cbc.download]]
-    sha256 = "37575ad61b0f6011ba9f278a0873b7114c72bf04ef6a25b45e93c8698af10eac"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.i686-w64-mingw32-libgfortran5-cxx11.tar.gz"
+    sha256 = "2fe644c47afa0143465f78e763936e2a7c1e24c20f5abc97daaf0a482b480bf6"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.x86_64-w64-mingw32-libgfortran4-cxx03.tar.gz"
 [[Cbc]]
 arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "b29808806b47910dd7533b159cf3678f5cfed7cf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "95defb3b1f2442904f1493ca671da0e3cd240611"
 libgfortran_version = "5.0.0"
 os = "macos"
 
     [[Cbc.download]]
-    sha256 = "0609b9f97b2d18201fa8b5a16fdb68bcb205f3d7ca7fabd80ca1713ff33f42e5"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.x86_64-apple-darwin14-libgfortran5-cxx11.tar.gz"
+    sha256 = "fbbcec3811eecdca8a4a0e09dab33f6476cf0b4060b38364f1f4a927f6824b6c"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.x86_64-apple-darwin14-libgfortran5-cxx03.tar.gz"
 [[Cbc]]
 arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "c1a43159f3136d59569bc564486265a90a98023c"
-libgfortran_version = "3.0.0"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "62e1fdb4f9fdadecbb9318f38a8a34dd8f26b9cd"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "819d88087357cf2c21ca051c66c864f05af00bbd409f68fc2217a7eb865d1a5a"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.i686-linux-gnu-libgfortran4-cxx11.tar.gz"
+[[Cbc]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "128563d5184240b2409d2f7185bb4abc4a08c5a3"
+libgfortran_version = "5.0.0"
 os = "windows"
 
     [[Cbc.download]]
-    sha256 = "7b9edb5ae152ec2d13c1cd134240f57ff22037e8d97660c694a7563503a28a9e"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.i686-w64-mingw32-libgfortran3-cxx03.tar.gz"
-[[Cbc]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "44a840c8cc0868cbd0afc85365c2201d55f01866"
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "b59f3855562278db9fec46c664a13926048ae4c8b2c96a1cc0b2d13f402aaca5"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.i686-linux-gnu-libgfortran4-cxx03.tar.gz"
-[[Cbc]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "41368d75787551a681907a85368e0ff8857231fe"
-libc = "musl"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "377360fdf5f9db1b1b87aad3e2016532e4d04148e441d7106b95c8469b81f902"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.x86_64-linux-musl-libgfortran3-cxx11.tar.gz"
-[[Cbc]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "ffdb44fe00df271647af3a6d0308e6ae6cbb81ac"
-libc = "musl"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "b441a8a6597304604715891088d615b9c8b44cbd454a7657a55a2ef68ee8e6f3"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.aarch64-linux-musl-libgfortran5-cxx11.tar.gz"
-[[Cbc]]
-arch = "armv7l"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "b6a9aee6b290c802022d9263161fd6b2e9e5bc1a"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "fe220a8ed47c26f6da3e765d252e07f96fff131b2b44d0d54f61b20b2d0984e0"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.armv7l-linux-gnueabihf-libgfortran3-cxx03.tar.gz"
+    sha256 = "95c79fcf6e59d952f9b2355e494dd8a34189a7e64e8ccdb68bc3ed99a4bf959c"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.x86_64-w64-mingw32-libgfortran5-cxx11.tar.gz"
 [[Cbc]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "14537655925a2334fb946bc2079513e53a4628c4"
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "19f8bc8bbf18855e031812393f1754ecde2709c867a60d39431962bc701f172a"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.i686-linux-gnu-libgfortran4-cxx11.tar.gz"
-[[Cbc]]
-arch = "armv7l"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "1b1c3c9a169b3930d16d25259195a085c7b6710b"
-libc = "glibc"
+git-tree-sha1 = "eec97fcb23a0b541d00f89d1040fc37d5e25b6bf"
 libgfortran_version = "5.0.0"
-os = "linux"
+os = "windows"
 
     [[Cbc.download]]
-    sha256 = "3007bca5c492aa78a228f762e5ae2b0b01b85cecfeb79cb8301f961bf0142528"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.armv7l-linux-gnueabihf-libgfortran5-cxx03.tar.gz"
+    sha256 = "ed0b040f67e6920eb5bc4d2e69ec4f4c8432ac5b2f02ac84452439b170e5b48b"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.i686-w64-mingw32-libgfortran5-cxx11.tar.gz"
 [[Cbc]]
 arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "09fa7e4cdf7fa7b14f35d94e3f6ac1d4c42d9ff2"
-libc = "musl"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "929c0f39c1949a9cc1b9414036c97458820b63d304e4dd6dd9791fdef86b428b"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.x86_64-linux-musl-libgfortran5-cxx03.tar.gz"
-[[Cbc]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "ec62905431fbf7090bbde3078665bf6357a7c0f3"
-libgfortran_version = "4.0.0"
-os = "macos"
-
-    [[Cbc.download]]
-    sha256 = "8b8b963ffb6f807e971d13f9642217cf8acea66351c91fc201761da99c5937de"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.x86_64-apple-darwin14-libgfortran4-cxx03.tar.gz"
-[[Cbc]]
-arch = "armv7l"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "657da1ac8b4c53c8e8a8c8216373114e91293232"
-libc = "musl"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "850070d2c0b1ff5a00d327c98e8391c56b7135b8f9e3a9ea93cc325e0ad31bc1"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.armv7l-linux-musleabihf-libgfortran5-cxx03.tar.gz"
-[[Cbc]]
-arch = "armv7l"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "25bd6ab88bf01934e43b6d694e54e75dcf903616"
-libc = "musl"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "f6b7a800f226e90b16f9b60750ea5ab9591707e5022f64241a3f10916da28a40"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.armv7l-linux-musleabihf-libgfortran3-cxx03.tar.gz"
-[[Cbc]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "784512b0d604b3d7904e6fc8ad924d95d3d55458"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "2aa795f39b6e233c11a09f3565fbae1f760cd82c"
 libgfortran_version = "3.0.0"
 os = "macos"
 
     [[Cbc.download]]
-    sha256 = "8caf7f626903b215cd5017576b91794518b78f23707d71b18c8a3e09b5955bfa"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.x86_64-apple-darwin14-libgfortran3-cxx03.tar.gz"
-[[Cbc]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "b2cd04ef554ec70e32db1629181d0bc55159ff33"
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "4e6010e93ebcc4bdc08ed65c94f75ed7d7990d46feb6aaa1a1d58f3b036a116d"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.aarch64-linux-gnu-libgfortran4-cxx11.tar.gz"
-[[Cbc]]
-arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "7e669a0ab69be6c3e1debbec6157e8f5286bf4ad"
-libc = "musl"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "16d4cc7c2e6d2dd54ed85b54416f7a50d331cc3bbc2cd72c116c871db6ba82a4"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.aarch64-linux-musl-libgfortran5-cxx03.tar.gz"
-[[Cbc]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "fb86c7bc4ee274f095d5c737055e8bbc6bf52c5d"
-libc = "musl"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "fcf9dd22539205e5f7836b4dd5ff7ca6280d1461fb42343a36beef58adb8ea59"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.x86_64-linux-musl-libgfortran4-cxx11.tar.gz"
-[[Cbc]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "5b9c1b69439c9877cb3d377f13e4028bb8726a77"
-libc = "musl"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "a54ed0ef44b2758dc087ef6444db37826be39a1bf608c7545599f85f8d2dab77"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.aarch64-linux-musl-libgfortran3-cxx11.tar.gz"
+    sha256 = "bf438bdef09ec758cc0e9aa46bb95bec398c09bfebe995ec964c43e06deeefd6"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.x86_64-apple-darwin14-libgfortran3-cxx11.tar.gz"
 [[Cbc]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "82a5e2b07168618543141232c2455a4fa828e614"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "7c490f60c12e5ecb63fdc0239375b27fa0f67af4350ccbfa37aa2b7456f14b65"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.i686-linux-gnu-libgfortran3-cxx03.tar.gz"
-[[Cbc]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "72d80603943123bac6ae0b9ee91e23fc24000f5f"
+git-tree-sha1 = "e104fc86d64ec8c9841b6137101cb1f7f01fe83a"
 libc = "musl"
 libgfortran_version = "4.0.0"
 os = "linux"
 
     [[Cbc.download]]
-    sha256 = "4d79c86e4870c36886a61ed48da7bd38d100473800d358f6db4d9551cfdb3fb0"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.aarch64-linux-musl-libgfortran4-cxx11.tar.gz"
+    sha256 = "04a8b87a88c01fbc3ccc6c917c4581134f0247864e913107152d6cad24de28df"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.i686-linux-musl-libgfortran4-cxx03.tar.gz"
 [[Cbc]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "d6cb8fdecb1ceb4ce5be1b99a832b0b03daf5ea4"
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "8f4126bf92a4211041b9cf248b8c988765143485"
 libc = "musl"
 libgfortran_version = "4.0.0"
 os = "linux"
 
     [[Cbc.download]]
-    sha256 = "cf7c121b3587c15c341018435bcf9837ad064999c94aa363feb4ee705805db0f"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.i686-linux-musl-libgfortran4-cxx11.tar.gz"
+    sha256 = "6c266c94d1701a5db8a22fb524013577c924d6b3f090a3267997103a8c975916"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.aarch64-linux-musl-libgfortran4-cxx03.tar.gz"
 [[Cbc]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "41c965d82408aa030d042a39440adc0c6eb42e45"
-libc = "glibc"
+git-tree-sha1 = "2164e9a5642e4d7d794420279521ec4abbd1279a"
 libgfortran_version = "3.0.0"
-os = "linux"
+os = "macos"
 
     [[Cbc.download]]
-    sha256 = "ec3e297558d34ca965f890f87149781654a03d3661a6b706f1797f63dd0a8972"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.x86_64-linux-gnu-libgfortran3-cxx03.tar.gz"
+    sha256 = "979b413de9a738f12e1dee07c58ce632f24fc345b7389a2f6c5a1e6eebd4fae9"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.x86_64-apple-darwin14-libgfortran3-cxx03.tar.gz"
 [[Cbc]]
-arch = "i686"
+arch = "powerpc64le"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "7a0a52e8c5638e39621b5d7908209fee3d9234a5"
-libc = "musl"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "3136effb3a6d7c5540dd6e8c08dcfd3107876152287ae28495266f921fd52fc0"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.i686-linux-musl-libgfortran5-cxx03.tar.gz"
-[[Cbc]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "9e80bc5e680597c1445142a4b5fe26dc7757ff9b"
+git-tree-sha1 = "1af18ecccd2a00e17e5379a5a54d0e87c149c663"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[Cbc.download]]
-    sha256 = "0d195469189549016e4327e2bfda45f94475dfd7556c53f993840afe1972530b"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.x86_64-linux-gnu-libgfortran5-cxx03.tar.gz"
-[[Cbc]]
-arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "931e15d2bcead5d19a5058c401b004cdd73ba063"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "f3e8d51def4545bafeb4b15b9fae8bb5267026c7fdedd561b776cc8c98bb6ad6"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.aarch64-linux-gnu-libgfortran5-cxx03.tar.gz"
-[[Cbc]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "3893b894afae0967b9e26ca92bf907a6a9f149d0"
-libgfortran_version = "3.0.0"
-os = "windows"
-
-    [[Cbc.download]]
-    sha256 = "5fd902eb049490fe6ec260761aa4599d372b94629a20e88ce3e4db8f81032ad8"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.x86_64-w64-mingw32-libgfortran3-cxx11.tar.gz"
+    sha256 = "9fa57a461ba6329644e8489f80c6fcc28c099ce8bb6eada4d0a8d5ad1b380ddf"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.powerpc64le-linux-gnu-libgfortran5-cxx03.tar.gz"
 [[Cbc]]
 arch = "armv7l"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "f044bb873debcc29e5d57699e5767a9a1c6ec3d9"
-libc = "musl"
-libgfortran_version = "3.0.0"
+git-tree-sha1 = "a0000105d893eb8016b52046cf3173e728477926"
+libc = "glibc"
+libgfortran_version = "4.0.0"
 os = "linux"
 
     [[Cbc.download]]
-    sha256 = "dba027aa3795bc05086c18d9cca61f25a72d4714cc080da3174ca6ff57e2fdfc"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.armv7l-linux-musleabihf-libgfortran3-cxx11.tar.gz"
+    sha256 = "e1646a7ebbed1f2985edb9cfd6c1f3fe494d431ba301ba3e31d4394ad046784c"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.armv7l-linux-gnueabihf-libgfortran4-cxx11.tar.gz"
 [[Cbc]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "c632dde8adeef58f0e1358c16a604525b5895586"
-libc = "musl"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "4a9d91184bcbdd8866b977e343e667c4c97d1917219b5a856aa812416d4d31e4"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.i686-linux-musl-libgfortran3-cxx11.tar.gz"
-[[Cbc]]
-arch = "i686"
+arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "e793b0dda900bd6aa0eb6e9daa24914dd034cb8a"
+git-tree-sha1 = "7578f81cc7782ab9e12e638331a07928219cbc8d"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "0de58fabc3bd5c0d917e2d9fd40d52fc6e9e4eca3c30b5dc54b6d6aac0e12ff9"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.x86_64-linux-musl-libgfortran4-cxx03.tar.gz"
+[[Cbc]]
+arch = "armv7l"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "085829a03c7ee41bd93785731b08082f7cf40107"
 libc = "musl"
 libgfortran_version = "3.0.0"
 os = "linux"
 
     [[Cbc.download]]
-    sha256 = "32a553bddc233640738060db86eb8f70f2f5fb5ab9528443dd192a6f46245cbe"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.i686-linux-musl-libgfortran3-cxx03.tar.gz"
+    sha256 = "3acec09bb0751ed59b3ec86a5ac49b154dd30883c819c3184158a08a9af2e714"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.armv7l-linux-musleabihf-libgfortran3-cxx11.tar.gz"
 [[Cbc]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "ae61a8d90d68d7336c18a9acc2418d7e22474269"
+git-tree-sha1 = "2f216112c9217db7e5a7798e6a30ee57679e6d33"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "19913b28718886fab20672f604cea0ca91227fdbccf4e454ee77151f03928b8e"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.x86_64-linux-gnu-libgfortran4-cxx11.tar.gz"
+[[Cbc]]
+arch = "armv7l"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "4d717b8da559a8a2ee55b1e2498f5bf3edbce0b2"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "61619720fff8ed3057d4e9254ff571d31ee3ce5b1f308cd01fe782af61f80726"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.armv7l-linux-musleabihf-libgfortran3-cxx03.tar.gz"
+[[Cbc]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "d86aee355038520c29cc136eb8ebff6dd823887d"
 libgfortran_version = "4.0.0"
 os = "windows"
 
     [[Cbc.download]]
-    sha256 = "aafc41743c6d631b5f1863dd9f2f2d1f21b13464fc02736a33040a171c94d44a"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.x86_64-w64-mingw32-libgfortran4-cxx11.tar.gz"
+    sha256 = "872345fa6cb6ce5f6f8c8e42c725b35f5fdf82b66361fe6280b0868e40542163"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.x86_64-w64-mingw32-libgfortran4-cxx11.tar.gz"
 [[Cbc]]
 arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "c76c47ddb802f52f6799cac930758001d64f5957"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "fe3b5d57bebb487dcf0681aae27a4ac0dfe0752a"
 libc = "glibc"
 libgfortran_version = "3.0.0"
 os = "linux"
 
     [[Cbc.download]]
-    sha256 = "519fec1e69b74f1f700b6ca0cf1784fd92890e39b5f62bb42517a388046e8598"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.aarch64-linux-gnu-libgfortran3-cxx11.tar.gz"
+    sha256 = "e340c6f18dd0736af8337ea1fb7d600926867619b0a158511b88b221e77a2454"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.aarch64-linux-gnu-libgfortran3-cxx03.tar.gz"
 [[Cbc]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "97a8d1ceb6c24e5598e3a18f462b9e7b6c45f51d"
+git-tree-sha1 = "993824936e189304aee0916ebda57bda424c10d3"
 libgfortran_version = "4.0.0"
 os = "macos"
 
     [[Cbc.download]]
-    sha256 = "541a82ec36fb37960cb69e96f39b3990b891d69d82c0bfec73ad11813f42e513"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.x86_64-apple-darwin14-libgfortran4-cxx11.tar.gz"
-[[Cbc]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "686b2b36a62e0f45fb60a5016d7cac3852a00140"
-libgfortran_version = "3.0.0"
-os = "windows"
-
-    [[Cbc.download]]
-    sha256 = "1331d7685eaa775e6b1006eb7130104c34c5179111c3a739c3720a282c90c762"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.x86_64-w64-mingw32-libgfortran3-cxx03.tar.gz"
-[[Cbc]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "8e567f876c74d44a714f5b37e9f78a6d507eb97c"
-libc = "musl"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "f82ce68ee9c90d56c9d86f75e95a45507cb0d94dea8c104260c7c841d252dd9d"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.x86_64-linux-musl-libgfortran3-cxx03.tar.gz"
-[[Cbc]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "46ee68c1ada190717250b5004d4932b4516d74d1"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "d107978527ac8bc2b8f805d24fc0d057200f9de4fe4ffc5a2fd6a39af556c6f6"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.x86_64-linux-gnu-libgfortran5-cxx11.tar.gz"
-[[Cbc]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "cec05a80a875954652716f488442e2b60ff67ad5"
-libc = "musl"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "8f10d8fbc6dcbcd415420813942f782288523f10f9346d87d69cdbf87aeefc43"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.x86_64-linux-musl-libgfortran5-cxx11.tar.gz"
-[[Cbc]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "33ce65c32d49eecebe8981034384effec01cd166"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[Cbc.download]]
-    sha256 = "eae4234c625cdea9965ccefda39be6c404c9ce08205715a58dd6a9215bd19e9c"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.i686-linux-gnu-libgfortran5-cxx03.tar.gz"
+    sha256 = "9116737703fd1389c5d680d2f5ce521e4af957b12d1c81fb5bfce14e7acd92ab"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.x86_64-apple-darwin14-libgfortran4-cxx11.tar.gz"
 [[Cbc]]
 arch = "armv7l"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "949dfadd7b148a459c3df0c08ff6c160db08ea15"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "8555249ffda952d79ce9dc0d05b58f0464888561"
 libc = "musl"
 libgfortran_version = "4.0.0"
 os = "linux"
 
     [[Cbc.download]]
-    sha256 = "d436e027db81669bfb30c919c88877c893190f62b3f80986a2c5d827d97aa759"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.armv7l-linux-musleabihf-libgfortran4-cxx11.tar.gz"
+    sha256 = "fa4c49b473be0418a27458e755345dfe745b6513b0305f716bec5cbf0eb7da89"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.armv7l-linux-musleabihf-libgfortran4-cxx03.tar.gz"
 [[Cbc]]
 arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "d911b2db312417e2712cffad15c991e0fa50cbe0"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "293765752cb28c9dfa4dd28fc40daf9fa117b11f"
 libc = "musl"
 libgfortran_version = "3.0.0"
 os = "linux"
 
     [[Cbc.download]]
-    sha256 = "a41c7961aa99a233d6779ad4ae5e9955f9d407f0b5c109c86a03d7e9d4ab724b"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.aarch64-linux-musl-libgfortran3-cxx03.tar.gz"
+    sha256 = "5aaddab0a2c3aff9b321041e167f775ae2b5c08a36229a4c1aebad1122bf4d4c"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.aarch64-linux-musl-libgfortran3-cxx11.tar.gz"
 [[Cbc]]
-arch = "armv7l"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "721a00179cae6d9659742eec4ba2eea01d97ff61"
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "8ac1c85e0d3d38f30ba81ba675626ca21557b27a"
 libc = "musl"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[Cbc.download]]
-    sha256 = "8818fbcb71d29826c2567414292792073c43bf61d942c5474271015fb7529ce9"
-    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+3/Cbc.v2.10.3.armv7l-linux-musleabihf-libgfortran5-cxx11.tar.gz"
+    sha256 = "f4323997d9e30cd8e3e6030ebe70121329b9be3804679bd519fd1e6d96101ca0"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.aarch64-linux-musl-libgfortran5-cxx03.tar.gz"
+[[Cbc]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "e7ec352a33c61815bf26d9478df978c2fe5d5220"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "97da92b86f4151db1c215f27509bf346509e6f8502091e4c44d6516d336bee0d"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.x86_64-linux-gnu-libgfortran3-cxx03.tar.gz"
+[[Cbc]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f736e522afb398b92a3f17ce20a5a917e92df95e"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "cd79d352cb6c32617475b32f112006a8d60869d075c7c77c97a02b668b04621e"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.aarch64-linux-musl-libgfortran5-cxx11.tar.gz"
+[[Cbc]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "3fa445575cee7284110cdf96e2498309a7e4c7f0"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "f9c89a061ef37215935e9e61d8ce85ab731a9d1da4a5451e2793a9586961f5db"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.i686-linux-gnu-libgfortran4-cxx03.tar.gz"
+[[Cbc]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "474b2882549223e73f78c916ba50f7bf7a1025db"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "39d25c1162030ddd766dcffbc58d5088faaf233e705589dd8104d66d9df25671"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.i686-linux-gnu-libgfortran3-cxx03.tar.gz"
+[[Cbc]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c4203cb271e0946b739bfbcce607c18e5af41696"
+libgfortran_version = "3.0.0"
+os = "windows"
+
+    [[Cbc.download]]
+    sha256 = "75b1f551fcb2e16eb847ee54ec28a3469f1a905dbf729263ae541ada0619616e"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.i686-w64-mingw32-libgfortran3-cxx11.tar.gz"
+[[Cbc]]
+arch = "armv7l"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "926815c254f4df11744ae18d95748bed3e3cd151"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "c312e5ffd0942d73e1f368a88e3386a977902256cb9a7afdaf92dca6fdc91220"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.armv7l-linux-musleabihf-libgfortran5-cxx11.tar.gz"
+[[Cbc]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "dda50df8f6265e3d9faf0e045b9b032df586bfff"
+libgfortran_version = "4.0.0"
+os = "windows"
+
+    [[Cbc.download]]
+    sha256 = "92768315b1393a4f44cf3e5578ffee3192f8f6243d99a3a01d16d5aaf39adda3"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.i686-w64-mingw32-libgfortran4-cxx03.tar.gz"
+[[Cbc]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "7f133009558932b2dba1ce7f6b80194a91542815"
+libgfortran_version = "3.0.0"
+os = "windows"
+
+    [[Cbc.download]]
+    sha256 = "a7412b7d01ca5fa6c5f9c7c343c220f3d99cdeeb27f59e1eec69fe9482bb5daf"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.x86_64-w64-mingw32-libgfortran3-cxx03.tar.gz"
+[[Cbc]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "043d5af3976ece6621704bc19d333262857af7ca"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "42413d40f3aa899b54faa3e8b0ff2a7f731f3655ab68ea2162c7286626a36e5f"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.powerpc64le-linux-gnu-libgfortran4-cxx11.tar.gz"
+[[Cbc]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "be17c22f0c390139261ef2ce05875330fcf9abea"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "2b9f21dcce3c3c8a0c40a5a46ecd0c4282ffb269787aa8c8991d7ee97a202dfe"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.aarch64-linux-gnu-libgfortran5-cxx03.tar.gz"
+[[Cbc]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "55afa7debe7d99ebb4169ca17fdd23f86bfb0bc7"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "4b27f8694bbe8a4fb1884adbe7a827ad2d8562e1a3656c3e6aa5b41490e87c7b"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.powerpc64le-linux-gnu-libgfortran3-cxx11.tar.gz"
+[[Cbc]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "69adb7555a3380d6cbdb3b24abfc385f6bf40e01"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "451a2b7b1269598c70a3d84f295837ef7661621ffbc0567de962f2e837857a6b"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.i686-linux-gnu-libgfortran5-cxx11.tar.gz"
+[[Cbc]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "c5fa2e0d69a256484d04aee0e8863f0f57b76a07"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "98ef42a05b9880f969cf8951237c62e248166ca8636e7b86818962785a5ff72c"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.i686-linux-musl-libgfortran3-cxx03.tar.gz"
+[[Cbc]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "778a11ddd7dc4b08ed4646414a645d92676343b6"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "40664f8b8669bcebc91fefacd5e0c10dcd6ed46195ec1d3d7e37e1bab809ab08"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.x86_64-linux-musl-libgfortran3-cxx03.tar.gz"
+[[Cbc]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "4f20f634983c04ab17dbcc7f2a7b1dd5f2cdfe71"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "fd9f71ab4a2746b979033b46a68e3e3f2c5660226edf9e0e08dc0f7bf2ca50bc"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.x86_64-linux-musl-libgfortran4-cxx11.tar.gz"
+[[Cbc]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "04133a49daa61413541e76fd9900565d6c0f0e82"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "f95808f686735e4d9bb29908c9d932e7d0ccb210270274cc5d5a913fa99a07b5"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.i686-linux-musl-libgfortran5-cxx03.tar.gz"
+[[Cbc]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "15d65b528673bb44170cfd69694bba7c55ff6010"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "063c572b7ee4b4753b4783cb28c2e6158e0fb3001e2f027adf45e95cdddbba3c"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.aarch64-linux-musl-libgfortran4-cxx11.tar.gz"
+[[Cbc]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "6be2c0e71b490124d65f647b6336211b7390fc4e"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "a4b1e1b0b14786fad2ec98418cad60bbfe102d57cbce9bb6cb49e2fef73ad3df"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.i686-linux-musl-libgfortran3-cxx11.tar.gz"
+[[Cbc]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "0ce38a49256a49b6b9aae192614861a2d09b0475"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "676ad335dfd61bab6eeee728d107e10aa2e4c1673577bf23417c3257d58016ab"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.i686-linux-musl-libgfortran4-cxx11.tar.gz"
+[[Cbc]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "2d871a1e7a59146405a2414ff2e314b3293adfb2"
+libgfortran_version = "5.0.0"
+os = "windows"
+
+    [[Cbc.download]]
+    sha256 = "00e3ba9356d3c5d0507ce70c417b12ae398cbec06935e60c6b82dde43be05d78"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.x86_64-w64-mingw32-libgfortran5-cxx03.tar.gz"
+[[Cbc]]
+arch = "armv7l"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "123f979bc300c96c949d1fbb739c2243a5a0c667"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "0fb87ecd91a348c336bd84662b3858c315c75ff3d5aec70cfd4adaf5de297826"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.armv7l-linux-gnueabihf-libgfortran3-cxx03.tar.gz"
+[[Cbc]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "af531fc6d18540c1ea0908d00df9775e0a23c815"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "79ea2f2e4469c860894f8f40b514b3cc550723ab9b30cf75a7ba08c919de651b"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.powerpc64le-linux-gnu-libgfortran4-cxx03.tar.gz"
+[[Cbc]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "42e30edf8650c450886f7fbf599ba6a63bc094b2"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "12a6ef3577d102124304e25f79a629753211b0f1ff0fcb8d6c30f56697212225"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.x86_64-linux-gnu-libgfortran5-cxx11.tar.gz"
+[[Cbc]]
+arch = "armv7l"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b83717375e4c83b473965ccdc242ac94744f0e8e"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "54fd58882ca851754e876bcf95a17cf38f55559e0dccb4906b369632ae784572"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.armv7l-linux-musleabihf-libgfortran4-cxx11.tar.gz"
+[[Cbc]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "4739eb9c70cc91b0360f8078733538e6ef06fdab"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "fecea43f5367ba0fc7a4305577f06a53b26b5f2eb533a189a007931ef9b3ca87"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.aarch64-linux-musl-libgfortran3-cxx03.tar.gz"
+[[Cbc]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "456bf92827d364ac69262120a70a0fad1c7cd328"
+libgfortran_version = "4.0.0"
+os = "windows"
+
+    [[Cbc.download]]
+    sha256 = "3c098e22c70ee7bdad556549e6ea3b48ccaf2a9e03daa5c6ce7c03d573f5386b"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.i686-w64-mingw32-libgfortran4-cxx11.tar.gz"
+[[Cbc]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "49befc638b7ae3c3b9020f0bb8ce820201e34fd7"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "981855081819e44ee4ca36dde8393258c81df8908a1f7db7fadce3685f3aae5e"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.i686-linux-musl-libgfortran5-cxx11.tar.gz"
+[[Cbc]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "0f97c81a9bc42b545aa51139da007a517a3566b8"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "ac9faa6b20465d2fa664c77b83afe5aca33ddde86f5908fa07f95c7a359bf320"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.aarch64-linux-gnu-libgfortran4-cxx11.tar.gz"
+[[Cbc]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "dcfdfafa1caca00f83a4577ec740b26ef02526f3"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "6dc5007b01eb302e866a64394c7eaf887957d0434b38feab78559a3866e7dbf6"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.x86_64-linux-gnu-libgfortran3-cxx11.tar.gz"
+[[Cbc]]
+arch = "armv7l"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "5fb05cba2fd6c14bdbaed9d4f88b2453af104fcd"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "fd57f8cd583069994ceb03a3ecb07bd8aa150d6a090da24f0c1efc2086b2004a"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.armv7l-linux-musleabihf-libgfortran5-cxx03.tar.gz"
+[[Cbc]]
+arch = "armv7l"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ed9d1d77c2fc019e057925bb758d821df96bdee9"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "ed25b50f573428bb10132abc1ea0d8465cfe28c0ce19e2607e2ebf43a0e27b8a"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.armv7l-linux-gnueabihf-libgfortran5-cxx03.tar.gz"
+[[Cbc]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b4384545f4500073ac70497202d2f6fb0d76f4b8"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "df315947f3b29eb7b7dfac74c65cc81cad6155fe80be9e81738e32b810e04eea"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.i686-linux-gnu-libgfortran3-cxx11.tar.gz"
+[[Cbc]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "760d8b8cb67a8957f05d1acaaa8de30e3ea3550e"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "d9e2b3e7170f893919b24f9445f2922e683c9e55f96564f1138708425c88ccb9"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.x86_64-linux-gnu-libgfortran5-cxx03.tar.gz"
+[[Cbc]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "51d920d9e3e8d324f1f852e46f327de002fa37d3"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "28a6a01bf1bfb546f987f6d0d0650779783df3d44b61167595bfa037799fb3b1"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.x86_64-linux-musl-libgfortran5-cxx11.tar.gz"
+[[Cbc]]
+arch = "armv7l"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b4e2bb36e314e002ec84991ab210933242c25d0e"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "0e66e32c44b516e07159c0500fa7cfeaae5acac22c05f430ff395ecedb2f44d2"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.armv7l-linux-gnueabihf-libgfortran3-cxx11.tar.gz"
+[[Cbc]]
+arch = "armv7l"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "9a4f02596671e56c7ecab4ac4649c5c89fdccb1f"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "93b25503b0968d3409a424a5c03a35795ed0a8b6fbd9cf4d1ced3517ca1e06f5"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.armv7l-linux-gnueabihf-libgfortran4-cxx03.tar.gz"
+[[Cbc]]
+arch = "armv7l"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f6c4df4b8a439d6b9508ee33b66cae674dc2c204"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "33401922f2d9728b1dc3fcf784888b55ce0cb249ba20330d6cd3d20e625da9e8"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.armv7l-linux-gnueabihf-libgfortran5-cxx11.tar.gz"
+[[Cbc]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "6d3f33fb47d5ac5066d85e6aec0fa2afd0a0ac70"
+libgfortran_version = "3.0.0"
+os = "windows"
+
+    [[Cbc.download]]
+    sha256 = "57284fc33fc049855a9b252036347b81d0ebb60c1ec3c88ab5f2704f6ef9ec4d"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.x86_64-w64-mingw32-libgfortran3-cxx11.tar.gz"
+[[Cbc]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "fed8f9e9964386046688e3a9152d9ab130a3610d"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "396be4becf314ff9b83bc2af55008bbb0852c4b27bf5a6376ac033e2135ef230"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.x86_64-linux-musl-libgfortran3-cxx11.tar.gz"
+[[Cbc]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "979e45db09a7b72c4f8738a172e8741352b2a158"
+libgfortran_version = "5.0.0"
+os = "windows"
+
+    [[Cbc.download]]
+    sha256 = "67ad896d719fe2c5eaed0094c049ed71d7b14a962b3d91a7f99f3cb4e1ba31d7"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.i686-w64-mingw32-libgfortran5-cxx03.tar.gz"
+[[Cbc]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "6c56fcf94b082cde9c3a38f425a2e012d84d70d1"
+libgfortran_version = "3.0.0"
+os = "windows"
+
+    [[Cbc.download]]
+    sha256 = "5a2704554d3c8510fbf9a8ba1c1490872cc3f037d987b4cc712fe19d004feccd"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.i686-w64-mingw32-libgfortran3-cxx03.tar.gz"
+[[Cbc]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "97081e81840bcd7df10bc59c641636e60f1d4dc6"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "25d7ed82135038fd2f25ca7b6c7035f5cfefe452b3980e4f9f107d6e00575544"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.aarch64-linux-gnu-libgfortran4-cxx03.tar.gz"
+[[Cbc]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "e93a77e373b8e22aaeaee0386ea10a43e3df05e1"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Cbc.download]]
+    sha256 = "7a181eb2133aea2e8ecd2d13aa5ee7944c0b68d5fb2cc711315de9892d3fa391"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.i686-linux-gnu-libgfortran5-cxx03.tar.gz"
+[[Cbc]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "bc588e522c6ee2516f61208dac26a2fff3b7e140"
+libgfortran_version = "4.0.0"
+os = "macos"
+
+    [[Cbc.download]]
+    sha256 = "0683cc3b1394ccf65fceb07c581016fe7a66f977915a57e40140d1587c5beebd"
+    url = "https://github.com/JuliaBinaryWrappers/Cbc_jll.jl/releases/download/Cbc-v2.10.3+4/Cbc.v2.10.3.x86_64-apple-darwin14-libgfortran4-cxx03.tar.gz"
