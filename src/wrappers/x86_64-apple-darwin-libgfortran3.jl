@@ -14,13 +14,13 @@ function __init__()
     JLLWrappers.@generate_init_header(Clp_jll, Cgl_jll, Osi_jll, CoinUtils_jll, OpenBLAS32_jll, CompilerSupportLibraries_jll)
     JLLWrappers.@init_library_product(
         libCbc,
-        "lib/libCbc.3.10.3.dylib",
+        "lib/libCbc.3.10.5.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libcbcsolver,
-        "lib/libCbcSolver.3.10.3.dylib",
+        "lib/libCbcSolver.3.10.5.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
